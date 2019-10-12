@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.6;
+	color: rgb(66, 66, 66);
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+/* Header */
+#main-header {
+	background: #f4f4f4;
+	overflow: hidden;
+}
+
+#main-header .name,
+#main-header .nav-links li a {
+	padding: 1.2rem;
+}
+
+#main-header .nav-links {
+	margin: 2rem 2rem 4rem 2rem;
+}
+
+#main-header .nav-links li a {
+	display: block;
+	background: #fff;
+	margin: 0.5rem 0;
+}
+
+#main-header .profile img {
+	width: 70%;
+}
+
+#main-header .profile p {
+	padding: 2.5rem;
+}
+
+/* Portfolio */
+#portfolio {
+	padding: 2rem;
+}
+
+#portfolio h3 {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+#portfolio .item {
+	margin: 4rem 0;
+}
+
+#portfolio .item h2 {
+	padding: 2rem;
+}
+
+/* Contact */
+
+#contact {
+	background: #f4f4f4;
+	padding: 2rem 2rem 5rem 2rem;
+}
+
+#contact h3 {
+	padding: 4rem;
+}
+
+#contact p {
+	font-size: 1.6rem;
+}
+
+/* footer*/
+footer {
+	background: #f4f4f4;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid rgb(182, 182, 182);
+}
