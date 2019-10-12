@@ -99,7 +99,91 @@ ul {
 footer {
 	background: #f4f4f4;
 	padding: 2rem;
+}
+
+footer .main-footer {
 	display: flex;
 	justify-content: space-between;
 	border-top: 1px solid rgb(182, 182, 182);
+	padding: 2rem 0;
+}
+
+footer .footer-nav {
+	display: none;
+}
+
+footer .footer-nav li {
+	padding: 0 1rem;
+}
+
+/* Media Queries*/
+@media(min-width: 769px) {
+	.wrapper {
+		font-size: 1.6rem;
+	}
+
+	#main-header,
+	#main-header .nav-links,
+	#main-header .profile,
+	#portfolio .row {
+		display: flex;
+	}
+
+	#main-header {
+		flex-direction: column;
+		align-items: center;
+		padding: 2rem;
+	}
+
+	#main-header .nav-links {
+		margin-top: 0;
+	}
+
+	#main-header .nav-links li a {
+		background: none;
+		margin: 0;
+	}
+
+	#main-header .profile {
+		padding-bottom: 4rem;
+		text-align: justify;
+	}
+
+	#main-header .profile img {
+		order: 1;
+		width: 40%;
+	}
+
+	#main-header .profile p {
+		align-self: flex-start;
+		padding: 0 1rem;
+	}
+
+	#portfolio {
+		padding: 0;
+	}
+
+	#portfolio .row {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#portfolio .row .item {
+		width: 47%;
+		margin: 2rem 1rem 4rem 1rem;
+	}
+
+	#contact p {
+		width: 70%;
+		margin: auto;
+	}
+
+	footer .footer-nav {
+		display: flex;
+	}
+
+	.hide-desktop {
+		display: none;
+	}
+
 }
